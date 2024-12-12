@@ -1,0 +1,78 @@
+/* Home.css */
+
+/* Container for the whole page */
+.tv-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fafafb;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #030303;
+  margin-bottom: 20px;
+}
+
+/* Container for the TV items */
+.tv-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px; /* Spacing between cards */
+  justify-items: center;
+  padding: 0 10px; /* Optional: add some horizontal padding */
+}
+
+/* Individual TV item styling */
+.tv-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.tv-item:hover {
+  transform: translateY(-10px);
+}
+
+.tv-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #030303;
+  margin: 10px 0;
+}
+
+p {
+  color: #7f7363;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #28221c;
+}
+
+.buy-button {
+  background-color: #644d3a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #4f2c17;
+}
